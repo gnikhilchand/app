@@ -10,7 +10,7 @@ This app predicts the largest among 3 given numbers
 """)
 #Get Input
 
-st.header('Input Parameters')
+#st.header('Input Parameters')
 
 
 num1 = st.number_input("Enter first number: ")
@@ -26,9 +26,9 @@ num3 = st.number_input("Enter third number: ")
 #  print("The largest number is",largest)
 # '''
 #st.code(code, language='python')
-if (num1 > num2) and (num1 > num3):
+if (st.num1 > st.num2) and (st.num1 > st.num3):
   st.largest = num1
-elif (num2 > num1) and (num2 > num3):
+elif (st.num2 > num1) and (st.num2 > st.num3):
   st.largest = num2
 else:
   st.largest = num3
