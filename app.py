@@ -4,10 +4,10 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-# st.write("""
-# # Finding largest among 3 given numbers
-# This app predicts the largest among 3 given numbers
-# """)
+st.header("""
+# Finding largest among 3 given numbers
+This app predicts the largest among 3 given numbers
+""")
 # #Get Input
 
 # st.header('Enter Three Numbers')
