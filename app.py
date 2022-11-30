@@ -12,13 +12,17 @@ This app predicts the largest among 3 given numbers
 
 st.header('User Input Parameters')
 
-def maximum(a, b, c): 
-   list = [a, b, c] 
-   return max(list) 
-# Driven code  
-x = st.number_input("Enter First number"))
-y = st.number_input("Enter Second number"))
-z = st.number_input("Enter Third number"))
-print("Maximum Number is ::>",maximum(x, y, z)) 
+num1 = st.float(input("Enter first number: "))
+num2 = st.float(input("Enter second number: "))
+num3 = st.float(input("Enter third number: "))
+ 
+if (num1 > num2) and (num1 > num3):
+   largest = num1
+elif (num2 > num1) and (num2 > num3):
+   largest = num2
+else:
+   largest = num3
+ 
+print("The largest number is",largest)
 
 
