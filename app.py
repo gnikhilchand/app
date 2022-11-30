@@ -26,9 +26,9 @@ num3 = st.number_input("Enter third number: ")
 #  print("The largest number is",largest)
 # '''
 #st.code(code, language='python')
-if (st.num1 > st.num2) and (st.num1 > st.num3):
+if (num1 > num2) and (num1 > num3):
   st.largest = num1
-elif (st.num2 > num1) and (st.num2 > st.num3):
+elif (num2 > num1) and (num2 > num3):
   st.largest = num2
 else:
   st.largest = num3
