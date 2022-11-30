@@ -12,9 +12,9 @@ This app predicts the largest among 3 given numbers
 
 st.header('User Input Parameters')
 
-num1 = st.float_input("Enter first number: ")
-num2 = st.float_input("Enter second number: ")
-num3 = st.float_input("Enter third number: ")
+num1 = st.number_input("Enter first number: ")
+num2 = st.number_input("Enter second number: ")
+num3 = st.number_input("Enter third number: ")
  
 if (num1 > num2) and (num1 > num3):
    largest = num1
