@@ -36,6 +36,7 @@ This app predicts the largest among 3 given numbers
 # largest=df.max()
 # st.subheader('Largest Number')
 # st.write(largest)
+title = "Largest Number Among 3"
 
 st.set_page_config(page_title=title)
 
